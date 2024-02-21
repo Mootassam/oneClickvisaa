@@ -3,13 +3,54 @@ import React, { useEffect, useRef, useState } from "react";
 
 function App() {
   const [active, setActive] = useState(false);
- 
+  const [entry, setEntry] = useState("single");
+  const [days, setDays] = useState("30");
+  const [price, setPrice] = useState(125);
+  const [express, setExpress] = useState(false);
 
   const toggle = () => {
     setActive(!active);
   };
+
+  const changeDays = (days) => {
+    setDays(days);
+  };
+
+  const CalculePrice = () => {
+    if (express === false) {
+      switch (days) {
+        case "14":
+          setPrice(entry === "single" ? 125 : 0); // Adjust as needed
+          break;
+        case "30":
+          setPrice(entry === "single" ? 150 : 300);
+          break;
+        case "60":
+          setPrice(entry === "single" ? 250 : 500);
+          break;
+        default:
+        // handle default case if needed
+      }
+    } else if (express === true) {
+      switch (days) {
+        case "14":
+          setPrice(entry === "single" ? 225 : 0); // Adjust as needed
+          break;
+        case "30":
+          setPrice(entry === "single" ? 250 : 400);
+          break;
+        case "60":
+          setPrice(entry === "single" ? 350 : 600);
+          break;
+        default:
+        // handle default case if needed
+      }
+    }
+  };
+
   useEffect(() => {
-  }, [active]);
+    CalculePrice();
+  }, [active, days, entry, express]);
   return (
     <>
       <>
@@ -46,22 +87,34 @@ function App() {
                     >
                       <div className="ms-auto">
                         <ul id="nav" className="navbar-nav ms-auto">
-                          <li className="nav-item" onClick={()=>setActive(false)}>
+                          <li
+                            className="nav-item"
+                            onClick={() => setActive(false)}
+                          >
                             <a className="page-scroll active" href="#home">
                               Home
                             </a>
                           </li>
-                          <li className="nav-item" onClick={()=>setActive(false)}>
+                          <li
+                            className="nav-item"
+                            onClick={() => setActive(false)}
+                          >
                             <a className="page-scroll" href="#features">
                               Steps
                             </a>
                           </li>
-                          <li className="nav-item" onClick={()=>setActive(false)}>
+                          <li
+                            className="nav-item"
+                            onClick={() => setActive(false)}
+                          >
                             <a className="page-scroll" href="#about">
                               Process
                             </a>
                           </li>
-                          <li className="nav-item" onClick={()=>setActive(false)}>
+                          <li
+                            className="nav-item"
+                            onClick={() => setActive(false)}
+                          >
                             <a className="page-scroll" href="#pricing">
                               Pricing
                             </a>
@@ -384,14 +437,54 @@ function App() {
                         <div>
                           <label htmlFor="Type">Visa Type</label>
                           <div className="type__visa">
-                            <div>Single Entry</div>
-                            <div>Multi Entry</div>
+                            <div
+                              onClick={() => setEntry("single")}
+                              className={`${
+                                entry === "single" ? "price__active" : ""
+                              }`}
+                            >
+                              Single Entry
+                            </div>
+                            <div
+                              onClick={() => setEntry("multi")}
+                              className={`${
+                                entry === "multi" ? "price__active" : ""
+                              }`}
+                            >
+                              Multi Entry
+                            </div>
                           </div>
                         </div>
+
                         <div className="days__visa">
-                          <div>14 Days Visa</div>
-                          <div>30 Days Visa</div>
-                          <div>60 Days visa</div>
+                          {entry === "single" ? (
+                            <div
+                              onClick={() => changeDays("14")}
+                              className={`${
+                                days === "14" ? "price__active" : ""
+                              }`}
+                            >
+                              14 Days Visa
+                            </div>
+                          ) : (
+                            ""
+                          )}
+                          <div
+                            onClick={() => changeDays("30")}
+                            className={`${
+                              days === "30" ? "price__active" : ""
+                            }`}
+                          >
+                            30 Days Visa
+                          </div>
+                          <div
+                            onClick={() => changeDays("60")}
+                            className={`${
+                              days === "60" ? "price__active" : ""
+                            }`}
+                          >
+                            60 Days visa
+                          </div>
                         </div>
                       </div>
                     </form>
@@ -402,18 +495,24 @@ function App() {
                     <div className="time">
                       <p>Processing Time</p>
                       <div className="processing__time">
-                        <div className="radio__group">
+                        <div
+                          className="radio__group"
+                          onClick={() => setExpress(false)}
+                        >
                           <input type="radio" name="normal" id="" />
                           <p className="package-name">Normal (48 – 72 Hours)</p>
                         </div>
-                        <div className="radio__group">
-                          <input type="radio" name="Express" id="" />
+                        <div
+                          className="radio__group"
+                          onClick={() => setExpress(true)}
+                        >
+                          <input type="radio" name="normal" id="" />
                           <p className="package-name">Express (3-24 Hours)</p>
                         </div>
                       </div>
                     </div>
                     <h2 className="amount__">
-                      <span className="amoutn">125</span>
+                      <span className="amoutn">{price}</span>
                       <span className="currency">$</span>
                     </h2>
                   </div>
