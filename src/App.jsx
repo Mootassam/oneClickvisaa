@@ -20,7 +20,8 @@ function App() {
     if (express === false) {
       switch (days) {
         case "14":
-          setPrice(entry === "single" ? 125 : 0); // Adjust as needed
+          setPrice(entry === "single" ? 125 : 300); // Adjust as needed
+          setDays(entry === "single" ? "14" : "30");
           break;
         case "30":
           setPrice(entry === "single" ? 150 : 300);
@@ -34,7 +35,8 @@ function App() {
     } else if (express === true) {
       switch (days) {
         case "14":
-          setPrice(entry === "single" ? 225 : 0); // Adjust as needed
+          setPrice(entry === "single" ? 225 : 400); // Adjust as needed
+          setDays(entry === "single" ? "14" : "30");
           break;
         case "30":
           setPrice(entry === "single" ? 250 : 400);
@@ -499,14 +501,14 @@ function App() {
                           className="radio__group"
                           onClick={() => setExpress(false)}
                         >
-                          <input type="radio" name="normal" id="" />
+                          <input type="radio" name="normal" checked={!express}  />
                           <p className="package-name">Normal (48 – 72 Hours)</p>
                         </div>
                         <div
                           className="radio__group"
                           onClick={() => setExpress(true)}
                         >
-                          <input type="radio" name="normal" id="" />
+                          <input type="radio" name="normal" id="" checked={express}  />
                           <p className="package-name">Express (3-24 Hours)</p>
                         </div>
                       </div>
