@@ -8,6 +8,8 @@ function App() {
   const [price, setPrice] = useState(125);
   const [express, setExpress] = useState(false);
 
+  const [visa, setVisa] = useState(300);
+
   const toggle = () => {
     setActive(!active);
   };
@@ -432,7 +434,7 @@ function App() {
             </div>
             <div className="row align-items-center justify-content-center">
               <div className="col-sm-10 items">
-                <div className="">
+                {/* <div className="">
                   <div className="pricing-body">
                     <form>
                       <div className="form__group">
@@ -491,7 +493,7 @@ function App() {
                       </div>
                     </form>
                   </div>
-                </div>
+                </div> */}
                 <div className="single-pricing basic">
                   <div className="pricing-header amount">
                     <div className="time">
@@ -499,23 +501,40 @@ function App() {
                       <div className="processing__time">
                         <div
                           className="radio__group"
-                          onClick={() => setExpress(false)}
+                          onClick={() => {
+                            setExpress(false);
+                            setVisa(500);
+                          }}
                         >
-                          <input type="radio" name="normal" checked={!express}  />
-                          <p className="package-name">Normal (48 – 72 Hours)</p>
+                          <input
+                            type="radio"
+                            name="normal"
+                            checked={!express}
+                          />
+                          <p className="package-name">
+                            1 Month (48 – 72 Hours)
+                          </p>
                         </div>
                         <div
                           className="radio__group"
-                          onClick={() => setExpress(true)}
+                          onClick={() => {
+                            setExpress(true);
+                            setVisa(700);
+                          }}
                         >
-                          <input type="radio" name="normal" id="" checked={express}  />
-                          <p className="package-name">Express (3-24 Hours)</p>
+                          <input
+                            type="radio"
+                            name="normal"
+                            id=""
+                            checked={express}
+                          />
+                          <p className="package-name">2 Months (48 – 72 Hours)</p>
                         </div>
                       </div>
                     </div>
                     <h2 className="amount__">
-                      <span className="amoutn">{price}</span>
-                      <span className="currency">$</span>
+                      <span className="amoutn">{visa}</span>
+                      <span className="currency">AED</span>
                     </h2>
                   </div>
                   <a href="#0" className="main-btn btn-hover">

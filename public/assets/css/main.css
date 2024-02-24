@@ -236,13 +236,13 @@ label {
   padding: 10px;
   border: 1px solid #3498db;
   border-radius: 4px;
-  color: #3498db;
+  color: #101010;
   transition: background-color 0.3s;
 }
 
 .type__visa div:hover,
 .days__visa div:hover {
-  background-color: #3498db;
+  background-color: #43a167;
   color: #fff;
 }
 
@@ -258,7 +258,7 @@ label {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #3498db;
+  background-color: #2d2f2c;
   color: #fff;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -1831,7 +1831,7 @@ label {
   position: relative;
   z-index: 100;
 
-  background-color: #70a6cd;
+  background-color: #086258;
 }
 
 .footer .footer-widget {
@@ -2678,6 +2678,6 @@ label {
   }
 }
 .price__active {
-  background-color: #3498db !important;
+  background-color: #086258 !important;
   color: #fff !important;
 }
