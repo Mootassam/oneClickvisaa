@@ -65,7 +65,7 @@ function App() {
                 <div className="col-lg-12">
                   <nav className="navbar navbar-expand-lg">
                     <a className="navbar-brand" href="#home">
-                      <img src="assets/images/logo/Logo.png" alt="Logo" height={60} />
+                      <img src="assets/images/logo/Logo.png" alt="Logo" height={50} />
                     </a>
                     <button
                       className={`navbar-toggler ${active ? "active" : ""}`}
