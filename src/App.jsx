@@ -65,7 +65,7 @@ function App() {
                 <div className="col-lg-12">
                   <nav className="navbar navbar-expand-lg">
                     <a className="navbar-brand" href="#home">
-                      <img src="assets/images/logo/logo.svg" alt="Logo" />
+                      <img src="assets/images/logo/Logo.png" alt="Logo" height={60} />
                     </a>
                     <button
                       className={`navbar-toggler ${active ? "active" : ""}`}
@@ -130,7 +130,7 @@ function App() {
                       </div>
                     </div>
                     <div className="header-btn">
-                      <a href="#0" className="main-btn btn-hover">
+                      <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
                         Apply Now !!
                       </a>
                     </div>
@@ -269,7 +269,7 @@ function App() {
                       4. Fill the contact details <br />
                       5. Choose processing time
                     </p>
-                    <a href="#0" className="main-btn btn-hover">
+                    <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
                       <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
                   </div>
@@ -300,7 +300,7 @@ function App() {
                         2. White background picture of applicant (Take Selfie
                         standing in front of white wall)
                       </p>
-                      <a href="#0" className="main-btn btn-hover">
+                      <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
                         <i className="lni lni-whatsapp" /> whatsApp Now!!
                       </a>
                     </div>
@@ -340,7 +340,7 @@ function App() {
                       3. Apple Pay <br />
                       <br />
                     </p>
-                    <a href="#0" className="main-btn btn-hover">
+                    <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
                       <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
                   </div>
@@ -367,7 +367,7 @@ function App() {
                         can print the e-visa or just show pdf copy at airport
                         counter to travel.
                       </p>
-                      <a href="#0" className="main-btn btn-hover">
+                      <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
                         <i className="lni lni-whatsapp" /> whatsApp Now!!
                       </a>
                     </div>
@@ -409,7 +409,7 @@ function App() {
                       3. Apple Pay <br />
                       <br />
                     </p>
-                    <a href="#0" className="main-btn btn-hover">
+                    <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
                       <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
                   </div>
@@ -537,7 +537,7 @@ function App() {
                       <span className="currency">AED</span>
                     </h2>
                   </div>
-                  <a href="#0" className="main-btn btn-hover">
+                  <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
                     <i className="lni lni-whatsapp" /> WhatsApp Now !!
                   </a>
                 </div>
