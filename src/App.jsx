@@ -65,7 +65,11 @@ function App() {
                 <div className="col-lg-12">
                   <nav className="navbar navbar-expand-lg">
                     <a className="navbar-brand" href="#home">
-                      <img src="assets/images/logo/Logo.png" alt="Logo" height={50} />
+                      <img
+                        src="assets/images/logo/Logo.png"
+                        alt="Logo"
+                        height={50}
+                      />
                     </a>
                     <button
                       className={`navbar-toggler ${active ? "active" : ""}`}
@@ -130,7 +134,11 @@ function App() {
                       </div>
                     </div>
                     <div className="header-btn">
-                      <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
+                      <a
+                        href="https://wa.me/+9618160924"
+                        target="_blank"
+                        className="main-btn btn-hover"
+                      >
                         Apply Now !!
                       </a>
                     </div>
@@ -163,9 +171,9 @@ function App() {
                   <div className="hero-content">
                     <h1>Apply UAE Visa Online</h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                      magna aliquyam erat, sed diam voluptua.
+                      Effortlessly apply for your UAE visa online with our
+                      user-friendly platform. Streamlined process for a seamless
+                      travel experience.
                     </p>
                     <a href="#features" className="main-btn btn-hover">
                       Read More
@@ -269,7 +277,11 @@ function App() {
                       4. Fill the contact details <br />
                       5. Choose processing time
                     </p>
-                    <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
+                    <a
+                      href="https://wa.me/+9618160924"
+                      target="_blank"
+                      className="main-btn btn-hover"
+                    >
                       <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
                   </div>
@@ -300,7 +312,11 @@ function App() {
                         2. White background picture of applicant (Take Selfie
                         standing in front of white wall)
                       </p>
-                      <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
+                      <a
+                        href="https://wa.me/+9618160924"
+                        target="_blank"
+                        className="main-btn btn-hover"
+                      >
                         <i className="lni lni-whatsapp" /> whatsApp Now!!
                       </a>
                     </div>
@@ -340,7 +356,11 @@ function App() {
                       3. Apple Pay <br />
                       <br />
                     </p>
-                    <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
+                    <a
+                      href="https://wa.me/+9618160924"
+                      target="_blank"
+                      className="main-btn btn-hover"
+                    >
                       <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
                   </div>
@@ -367,7 +387,11 @@ function App() {
                         can print the e-visa or just show pdf copy at airport
                         counter to travel.
                       </p>
-                      <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
+                      <a
+                        href="https://wa.me/+9618160924"
+                        target="_blank"
+                        className="main-btn btn-hover"
+                      >
                         <i className="lni lni-whatsapp" /> whatsApp Now!!
                       </a>
                     </div>
@@ -404,12 +428,15 @@ function App() {
                       Application and travel.
                     </h2>
                     <p className="mb-30">
-                      1. Pay online with credit or debit card <br />
-                      2. Google Pay <br />
-                      3. Apple Pay <br />
+                      our travel plans made simple with easy access to your visa
+                      documentation.
                       <br />
                     </p>
-                    <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
+                    <a
+                      href="https://wa.me/+9618160924"
+                      target="_blank"
+                      className="main-btn btn-hover"
+                    >
                       <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
                   </div>
@@ -528,7 +555,9 @@ function App() {
                             id=""
                             checked={express}
                           />
-                          <p className="package-name">2 Months (48 – 72 Hours)</p>
+                          <p className="package-name">
+                            2 Months (48 – 72 Hours)
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -537,7 +566,11 @@ function App() {
                       <span className="currency">AED</span>
                     </h2>
                   </div>
-                  <a href="https://wa.me/+9618160924"  target="_blank" className="main-btn btn-hover">
+                  <a
+                    href="https://wa.me/+9618160924"
+                    target="_blank"
+                    className="main-btn btn-hover"
+                  >
                     <i className="lni lni-whatsapp" /> WhatsApp Now !!
                   </a>
                 </div>
