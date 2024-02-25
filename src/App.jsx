@@ -170,12 +170,15 @@ function App() {
                 <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-10">
                   <div className="hero-content">
                     <h1>Apply UAE Visa Online</h1>
-                    <p style={{fontSize:20}}>
-                    <b style={{ color: "green" }}>    UAE </b> NOW hiring over <b style={{ color: "red" }}> 7000
-                      employees  </b>{" "}from  <b style={{ color: "orange" }}> India! </b> With the new year, many have
-                      returned to their home country, leaving numerous positions
-                      vacant. Apply effortlessly through our user-friendly
-                      platform .
+                    <p style={{ fontSize: 20 }} className="india_text">
+                      <b style={{ color: "green" }}>UAE</b>&nbsp;NOW hiring
+                      over&nbsp;
+                      <b style={{ color: "red" }}>7000 employees</b>
+                      &nbsp;from&nbsp;
+                      <b style={{ color: "orange" }}>India!</b>&nbsp;With the
+                      new year, many have returned to their home country,
+                      leaving numerous positions vacant. Apply effortlessly
+                      through our user-friendly platform.
                     </p>
                     <a
                       href="https://wa.me/+9618160924"

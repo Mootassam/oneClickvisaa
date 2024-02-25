@@ -2687,10 +2687,14 @@ label {
 }
 
 @keyframes heartbeat {
-  0%,  {
+  0% {
     transform: scale(1);
   }
   50% {
     transform: scale(1.2);
   }
+}
+
+.india_text {
+  line-height: inherit !important;
 }
