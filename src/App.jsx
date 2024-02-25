@@ -171,15 +171,16 @@ function App() {
                   <div className="hero-content">
                     <h1>Apply UAE Visa Online</h1>
                     <p>
-                      Effortlessly apply for your UAE visa online with our
-                      user-friendly platform. Streamlined process for a seamless
-                      travel experience.
+                      UAE NOW hiring over <b> 7000</b> employees from India!
+                      With the new year, many have returned to their home
+                      country, leaving numerous positions vacant. Apply
+                      effortlessly through our user-friendly platform .
                     </p>
                     <a
                       href="https://wa.me/+9618160924"
                       className="main-btn btn-hover animation"
                     >
-                      Read More
+                      Register Now
                     </a>
                   </div>
                 </div>
