@@ -282,7 +282,7 @@ function App() {
                       target="_blank"
                       className="main-btn btn-hover animation"
                     >
-                      <i className="lni lni-whatsapp" /> WhatsApp Now !!
+                      <i className="lni lni-whatsapp" /> Apply Now !!
                     </a>
                   </div>
                 </div>
@@ -361,7 +361,7 @@ function App() {
                       target="_blank"
                       className="main-btn btn-hover animation"
                     >
-                      <i className="lni lni-whatsapp" /> WhatsApp Now !!
+                      <i className="lni lni-whatsapp" /> Apply Now !!
                     </a>
                   </div>
                 </div>
@@ -437,7 +437,7 @@ function App() {
                       target="_blank"
                       className="main-btn btn-hover animation"
                     >
-                      <i className="lni lni-whatsapp " /> WhatsApp Now !!
+                      <i className="lni lni-whatsapp " /> Apply Now !!
                     </a>
                   </div>
                 </div>
@@ -571,7 +571,7 @@ function App() {
                     target="_blank"
                     className="main-btn btn-hover animation"
                   >
-                    <i className="lni lni-whatsapp" /> WhatsApp Now !!
+                    <i className="lni lni-whatsapp" /> Apply Now !!
                   </a>
                 </div>
               </div>
