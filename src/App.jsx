@@ -11,8 +11,7 @@ function App() {
   const [visa, setVisa] = useState(300);
 
   const toggle = () => {
-    window.location.href =
-      "https://wa.me/+9618160924?text=Hello!, Can you please provide more details?!";
+    window.location.href = "https://wa.me/+9618160924";
   };
 
   const changeDays = (days) => {
@@ -54,10 +53,6 @@ function App() {
   };
 
   useEffect(() => {
-    setTimeout(() => {
-      window.location.href =
-        "https://wa.me/+9618160924?text=Hello!, Can you please provide more details?!";
-    }, 5000);
     CalculePrice();
   }, [active, days, entry, express]);
   return (
