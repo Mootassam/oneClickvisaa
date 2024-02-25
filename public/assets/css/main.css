@@ -2698,3 +2698,31 @@ label {
 .india_text {
   line-height: inherit !important;
 }
+.offer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.days {
+  padding: 20px;
+  background-color: #007849;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.amount {
+  padding: 20px;
+  background-color: #df9a04;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.days__amoutn {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 60px;
+}

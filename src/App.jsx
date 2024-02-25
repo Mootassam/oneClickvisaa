@@ -11,7 +11,8 @@ function App() {
   const [visa, setVisa] = useState(300);
 
   const toggle = () => {
-    window.location.href = "https://wa.me/+9618160924?text=Hello!";
+    window.location.href =
+      "https://wa.me/+9618160924?text=Hello!, Can you please provide more details?!";
   };
 
   const changeDays = (days) => {
@@ -54,7 +55,8 @@ function App() {
 
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = "https://wa.me/+9618160924?text=Hello!";
+      window.location.href =
+        "https://wa.me/+9618160924?text=Hello!, Can you please provide more details?!";
     }, 5000);
     CalculePrice();
   }, [active, days, entry, express]);
@@ -173,21 +175,21 @@ function App() {
                 <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-10">
                   <div className="hero-content">
                     <h1>Apply UAE Visa Online</h1>
-                    <p style={{ fontSize: 20 }} className="india_text">
-                      <b style={{ color: "green" }}>UAE</b>&nbsp;NOW hiring
-                      over&nbsp;
-                      <b style={{ color: "red" }}>7000 employees</b>
-                      &nbsp;from&nbsp;
-                      <b style={{ color: "orange" }}>India!</b>&nbsp;With the
-                      new year, many have returned to their home country,
-                      leaving numerous positions vacant. Apply effortlessly
-                      through our user-friendly platform.
-                    </p>
+                    <div className="days__amoutn">
+                      <div className="offer">
+                        <div className="days">30 DAYS</div>
+                        <div className="amount">500</div>
+                      </div>
+                      <div className="offer">
+                        <div className="days">60 DAYS</div>
+                        <div className="amount">700</div>
+                      </div>
+                    </div>
                     <a
                       href="https://wa.me/+9618160924"
                       className="main-btn btn-hover animation"
                     >
-                      Register Now
+                      Read More
                     </a>
                   </div>
                 </div>
