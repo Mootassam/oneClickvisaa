@@ -2681,3 +2681,16 @@ label {
   background-color: #086258 !important;
   color: #fff !important;
 }
+
+.animation {
+  animation: heartbeat 0.1s infinite alternate;
+}
+
+@keyframes heartbeat {
+  0%,  {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}

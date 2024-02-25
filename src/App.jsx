@@ -280,7 +280,7 @@ function App() {
                     <a
                       href="https://wa.me/+9618160924"
                       target="_blank"
-                      className="main-btn btn-hover"
+                      className="main-btn btn-hover animation"
                     >
                       <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
@@ -315,7 +315,7 @@ function App() {
                       <a
                         href="https://wa.me/+9618160924"
                         target="_blank"
-                        className="main-btn btn-hover"
+                        className="main-btn btn-hover animation"
                       >
                         <i className="lni lni-whatsapp" /> whatsApp Now!!
                       </a>
@@ -359,7 +359,7 @@ function App() {
                     <a
                       href="https://wa.me/+9618160924"
                       target="_blank"
-                      className="main-btn btn-hover"
+                      className="main-btn btn-hover animation"
                     >
                       <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
@@ -382,7 +382,7 @@ function App() {
                         Dubai Visa Online
                       </h2>
                       <p className="mb-30">
-                        After visa approval by immigration, Express visa team
+                        After visa approval by immigration, Our team
                         will deliver you e-Visa copy by email and whatsapp. You
                         can print the e-visa or just show pdf copy at airport
                         counter to travel.
@@ -390,7 +390,7 @@ function App() {
                       <a
                         href="https://wa.me/+9618160924"
                         target="_blank"
-                        className="main-btn btn-hover"
+                        className="main-btn btn-hover animation"
                       >
                         <i className="lni lni-whatsapp" /> whatsApp Now!!
                       </a>
@@ -435,9 +435,9 @@ function App() {
                     <a
                       href="https://wa.me/+9618160924"
                       target="_blank"
-                      className="main-btn btn-hover"
+                      className="main-btn btn-hover animation"
                     >
-                      <i className="lni lni-whatsapp" /> WhatsApp Now !!
+                      <i className="lni lni-whatsapp " /> WhatsApp Now !!
                     </a>
                   </div>
                 </div>
@@ -569,7 +569,7 @@ function App() {
                   <a
                     href="https://wa.me/+9618160924"
                     target="_blank"
-                    className="main-btn btn-hover"
+                    className="main-btn btn-hover animation"
                   >
                     <i className="lni lni-whatsapp" /> WhatsApp Now !!
                   </a>
