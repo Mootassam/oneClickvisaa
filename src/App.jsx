@@ -11,7 +11,7 @@ function App() {
   const [visa, setVisa] = useState(300);
 
   const toggle = () => {
-    window.location.href = "https://wa.me/+9618160924";
+    setActive(!active);
   };
 
   const changeDays = (days) => {
@@ -137,7 +137,7 @@ function App() {
                       <a
                         href="https://wa.me/+9618160924"
                         target="_blank"
-                        className="main-btn btn-hover animation"
+                        className="main-btn btn-hover"
                       >
                         Apply Now !!
                       </a>
@@ -170,20 +170,12 @@ function App() {
                 <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-10">
                   <div className="hero-content">
                     <h1>Apply UAE Visa Online</h1>
-                    <div className="days__amoutn">
-                      <div className="offer">
-                        <div className="days">30 DAYS</div>
-                        <div className="amount">500</div>
-                      </div>
-                      <div className="offer">
-                        <div className="days">60 DAYS</div>
-                        <div className="amount">700</div>
-                      </div>
-                    </div>
-                    <a
-                      href="https://wa.me/+9618160924"
-                      className="main-btn btn-hover animation"
-                    >
+                    <p>
+                      Effortlessly apply for your UAE visa online with our
+                      user-friendly platform. Streamlined process for a seamless
+                      travel experience.
+                    </p>
+                    <a href="#features" className="main-btn btn-hover">
                       Read More
                     </a>
                   </div>
@@ -195,7 +187,7 @@ function App() {
             </div>
           </div>
         </section>
-        {/* <section id="features" className="feature-section">
+        <section id="features" className="feature-section">
           <div className="feature-wrapper">
             <div className="container">
               <div className="row justify-content-center">
@@ -259,8 +251,8 @@ function App() {
               </div>
             </div>
           </div>
-        </section> */}
-        {/* <section id="about" className="about-section">
+        </section>
+        <section id="about" className="about-section">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 order-last order-lg-first">
@@ -290,7 +282,7 @@ function App() {
                       target="_blank"
                       className="main-btn btn-hover animation"
                     >
-                      <i className="lni lni-whatsapp" /> Apply Now !!
+                      <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
                   </div>
                 </div>
@@ -342,8 +334,8 @@ function App() {
               </div>
             </div>
           </div>
-        </section> */}
-        {/* <section id="about" className="about-section">
+        </section>
+        <section id="about" className="about-section">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 order-last order-lg-first">
@@ -369,7 +361,7 @@ function App() {
                       target="_blank"
                       className="main-btn btn-hover animation"
                     >
-                      <i className="lni lni-whatsapp" /> Apply Now !!
+                      <i className="lni lni-whatsapp" /> WhatsApp Now !!
                     </a>
                   </div>
                 </div>
@@ -390,9 +382,9 @@ function App() {
                         Dubai Visa Online
                       </h2>
                       <p className="mb-30">
-                        After visa approval by immigration, Our team
-                        will deliver you e-Visa copy by email and whatsapp. You
-                        can print the e-visa or just show pdf copy at airport
+                        After visa approval by immigration, Our team will
+                        deliver you e-Visa copy by email and whatsapp. You can
+                        print the e-visa or just show pdf copy at airport
                         counter to travel.
                       </p>
                       <a
@@ -445,15 +437,15 @@ function App() {
                       target="_blank"
                       className="main-btn btn-hover animation"
                     >
-                      <i className="lni lni-whatsapp " /> Apply Now !!
+                      <i className="lni lni-whatsapp " /> WhatsApp Now !!
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section> */}
-        {/* <section id="pricing" className="pricing-section priccing">
+        </section>
+        <section id="pricing" className="pricing-section priccing">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xxl-8 col-xl-7 col-lg-8 col-md-10">
@@ -469,7 +461,7 @@ function App() {
             </div>
             <div className="row align-items-center justify-content-center">
               <div className="col-sm-10 items">
-                 <div className="">
+                {/* <div className="">
                   <div className="pricing-body">
                     <form>
                       <div className="form__group">
@@ -528,7 +520,7 @@ function App() {
                       </div>
                     </form>
                   </div>
-                </div> 
+                </div> */}
                 <div className="single-pricing basic">
                   <div className="pricing-header amount">
                     <div className="time">
@@ -579,21 +571,21 @@ function App() {
                     target="_blank"
                     className="main-btn btn-hover animation"
                   >
-                    <i className="lni lni-whatsapp" /> Apply Now !!
+                    <i className="lni lni-whatsapp" /> WhatsApp Now !!
                   </a>
                 </div>
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
-        {/* <footer className="footer">
+        <footer className="footer">
           <div className="container">
             <div className="copyright">
               <p>Copyright 2024 OneClick Visa. All rights reserved.</p>
             </div>
           </div>
-        </footer> */}
+        </footer>
       </>
     </>
   );
